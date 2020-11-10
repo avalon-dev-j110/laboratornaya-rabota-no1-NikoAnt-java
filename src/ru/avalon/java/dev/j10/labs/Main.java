@@ -7,7 +7,7 @@ public class Main {
     /*
      * FIXME(Студент): Измените определение метода так, чтобы он стал точкой входа в приложение.
      */
-    Main() {
+    
 
         Person ivanov = null;
         Person smith = null;
