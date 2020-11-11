@@ -15,7 +15,9 @@ package ru.avalon.java.dev.j10.labs.models;
  *  <li> орган, выдавший документ.
  * </ol>
  */
-class Passport {
+import java.util.Date;
+
+public class Passport {
 
     /*
      * TODO(Студент): Закончить определение класса.
@@ -37,4 +39,86 @@ class Passport {
      * 5. Обеспечте возможность использования класса за
      *    пределами пакета.
      */
+    private String passportSeries; // серия паспорта
+    private int passportNumber; // номер паспорта
+    private String name; // имя
+    private String surName; // отчество
+    private String middleName; // фамилия
+    private String secondName; // второе имя
+    private String dateBirthday; // день рождение
+    private String dateOfIssue; // дата выдачи паспорта
+    private String theIssuingAuthority; // кем выдан
+
+    public String getPassportSeries() {
+        return passportSeries;
+    }
+
+    public void setPassportSeries(String passportSeries) {
+        this.passportSeries = passportSeries;
+    }
+
+    public int getPassportNumber() {
+        return passportNumber;
+    }
+
+    public void setPassportNumber(int passportNumber) {
+        this.passportNumber = passportNumber;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getSurName() {
+        return surName;
+    }
+
+    public void setSurName(String surName) {
+        this.surName = surName;
+    }
+
+    public String getMiddleName() {
+        return middleName;
+    }
+
+    public void setMiddleName(String middleName) {
+        this.middleName = middleName;
+    }
+
+    public String getSecondName() {
+        return secondName;
+    }
+
+    public void setSecondName(String secondName) {
+        this.secondName = secondName;
+    }
+
+    public String getDateBirthday() {
+        return dateBirthday;
+    }
+
+    public void setDateBirthday(String dateBirthday) {
+        this.dateBirthday = dateBirthday;
+    }
+
+    public String getDateOfIssue() {
+        return dateOfIssue;
+    }
+
+    public void setDateOfIssue(String dateOfIssue) {
+        this.dateOfIssue = dateOfIssue;
+    }
+
+    public String getTheIssuingAuthority() {
+        return theIssuingAuthority;
+    }
+
+    public void setTheIssuingAuthority(String theIssuingAuthority) {
+        this.theIssuingAuthority = theIssuingAuthority;
+    }
+
 }
